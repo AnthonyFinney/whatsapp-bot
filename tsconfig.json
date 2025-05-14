@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Specify ECMAScript target version: */
+    "target": "ES2020", // modern JS features
+
+    /* Specify module code generation: */
+    "module": "CommonJS", // for Node.js; use "ESNext" for ESM
+
+    /* Enable all strict type-checking options: */
+    "strict": true,
+
+    /* Control where .js outputs go: */
+    "outDir": "./dist",
+
+    /* Specify the root directory of input files: */
+    "rootDir": "./src",
+
+    /* Resolve modules in Node-style: */
+    "moduleResolution": "node",
+
+    /* Allow importing modules without extensions: */
+    "esModuleInterop": true,
+
+    /* Support decorators (if you need them): */
+    // "experimentalDecorators": true,
+
+    /* Source maps for debugging: */
+    "sourceMap": true
+  },
+  "include": ["src/**/*"], // files to compile
+  "exclude": ["node_modules", "dist"]
+}
